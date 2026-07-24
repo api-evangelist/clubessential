@@ -1,8 +1,26 @@
 aid: clubessential
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/clubessential.png
 name: Clubessential
-description: Clubessential is a company surfaced as a portfolio company of battery-ventures and added
-  to the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment
-  pipeline.
+description: Clubessential is a Cincinnati-based provider of club management software
+  for private country, golf, city, athletic, and yacht clubs. Its cloud suite unifies
+  club websites and mobile apps, tee-time and dining reservations, membership CRM,
+  point-of-sale, accounting, business intelligence, and integrated payments so club
+  staff can manage operations and member experiences from a single platform. Part
+  of Clubessential Holdings (unified under Xplor Technologies alongside ClubReady,
+  foreUP, Vermont Systems, PrestoSports, and Exerp), the company serves more than
+  1,300 private clubs and, with its sister brands, thousands of courses and clubs
+  worldwide. Backed by Battery Ventures.
 url: https://raw.githubusercontent.com/api-evangelist/clubessential/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -10,12 +28,39 @@ x-backed-by:
 - battery-ventures
 x-tier: stub
 x-tier-reason: portfolio-lead
+x-enrichment: 'no public API, developer portal, SDKs, or well-known surface found (2026-07-18);
+  closed B2B SaaS. Identity + domain-security only.'
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
 tags:
 - Company
+- Club Management
+- Country Clubs
+- Golf
+- Hospitality
+- SaaS
+- Membership Management
+- Point of Sale
+- CRM
 apis: []
+common:
+- type: Website
+  url: https://www.clubessential.com/
+- type: ClubManagementSoftware
+  url: https://www.clubessential.com/club-management-software/
+- type: Blog
+  url: https://www.clubessential.com/blog/
+- type: Support
+  url: https://www.clubessential.com/customer-resource-center/
+- type: Login
+  url: https://clubessential.my.site.com/s/login/
+- type: PrivacyPolicy
+  url: https://www.clubessential.com/privacy-policy/
+- type: TermsOfService
+  url: https://www.clubessential.com/terms-of-service/
+- type: DomainSecurity
+  url: security/clubessential-domain-security.yml
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
